@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>ExploreWorld - Discover Your Next Destinations</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__header">
+        <div class="nav__logo">
+          <a href="#">Expro<span>Travel</span></a>
+        </div>
+        <div class="nav__menu__btn" id="menu-btn">
+          <i class="ri-menu-3-line"></i>
+        </div>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#package">Popular</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="nav__btns">
+        <button onclick="showform()" class="btn">Daftar</button>
+      </div>
+    </nav>
+
+    <header>
+      <div class="section__container">
+        <div class="header__content">
+          <h1>ExploreWorld</h1>
+          <p>
+            Membawa Anda Menjelajahi Dunia dengan Cara yang Berbeda
+          </p>
+          <button>Pesan Sekarang</button>
+        </div>
+      </div>
+    </header>
+
+    <section class="section__container choose__container" id="about">
+      <div class="choose__image">
+        <img src="pexels-freestockpro-1008155.jpg" alt="choose" />
+      </div>
+      <div class="choose__content">
+        <p class="section__subheader">Kenapa harus Exprotravel</p>
+        <h2 class="section__header">Rencanakan liburan<span>bersama kami</span></h2>
+        <ul class="choose__list">
+          <li>
+            <span><i class="ri-verified-badge-fill"></i></span>
+            <div>
+              <h4>Harga terbaik</h4>
+              <p>
+                Kami memastikan Anda mendapatkan tarif paling kompetitif untuk rencana perjalanan Anda, menjadikan destinasi impian Anda lebih terjangkau.
+              </p>
+            </div>
+          </li>
+          <li>
+            <span><i class="ri-calendar-fill"></i></span>
+            <div>
+              <h4>flexible</h4>
+              <p>
+                Rasakan kemudahan opsi pemesanan fleksibel yang disesuaikan dengan jadwal dan preferensi Anda.
+              </p>
+            </div>
+          </li>
+          <li>
+            <span><i class="ri-road-map-fill"></i></span>
+            <div>
+              <h4>Mudah di gunakan</h4>
+              <p>
+                Nikmati kemudahan menggunakan fitur kami yang dirancang untuk pengalaman yang simpel dan nyaman.
+              </p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section__container popular__container" id="package">
+      <h2 class="section__header">Our Popular <span>Destinations</span></h2>
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="popular__card">
+              <img src="bali.jpg" alt="popular" />
+              <div class="popular__content">
+                <div class="popular__rating">
+                  <span><i class="ri-star-fill"></i></span>
+                  4.0(34) 😊
+                </div>
+                <h4>Bali</h4>
+                <p><span>Rp. 2,800,000/-</span> Per Person</p>
+                <div class="popular__card__footer">
+                  <div>
+                    <span><i class="ri-time-line"></i></span> 4 Day's
+                  </div>
+                  <div>
+                    <span><i class="ri-group-3-fill"></i></span> 15+
+                  </div>
+                  <div>
+                    <span><i class="ri-map-pin-2-fill"></i></span> Indonesia
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="popular__card">
+              <img src="pexels-urtimud-89-76108288-18261764.jpg" alt="popular" />
+              <div class="popular__content">
+                <div class="popular__rating">
+                  <span><i class="ri-star-fill"></i></span>
+                  4.5(55) 😘
+                </div>
+                <h4>Burn</h4>
+                <p><span>Rp. 15,000,000/-</span> Per Person</p>
+                <div class="popular__card__footer">
+                  <div>
+                    <span><i class="ri-time-line"></i></span> 2 Day's
+                  </div>
+                  <div>
+                    <span><i class="ri-group-3-fill"></i></span> 10+
+                  </div>
+                  <div>
+                    <span><i class="ri-map-pin-2-fill"></i></span> Swis
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="popular__card">
+              <img src="Lokasi-Candi-Borobudur.jpg" alt="popular" />
+              <div class="popular__content">
+                <div class="popular__rating">
+                  <span><i class="ri-star-fill"></i></span>
+                  4.2(45) 😊
+                </div>
+                <h4>candi Borobudur</h4>
+                <p><span>Rp. 1,800,000/-</span> Per Person</p>
+                <div class="popular__card__footer">
+                  <div>
+                    <span><i class="ri-time-line"></i></span> 3 Day's
+                  </div>
+                  <div>
+                    <span><i class="ri-group-3-fill"></i></span> 20+
+                  </div>
+                  <div>
+                    <span><i class="ri-map-pin-2-fill"></i></span> Indonesia
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="popular__card">
+              <img src="Aerial-View-Of-Christ-The-Redeemer-In-Rio-de-Janeiro-Brazil-1.jpg" alt="popular" />
+              <div class="popular__content">
+                <div class="popular__rating">
+                  <span><i class="ri-star-fill"></i></span>
+                  4.8(25) 😘
+                </div>
+                <h4>Rio de Janeiro</h4>
+                <p><span>Rp. 13,000,000/-</span> Per Person</p>
+                <div class="popular__card__footer">
+                  <div>
+                    <span><i class="ri-time-line"></i></span> 5 Day's
+                  </div>
+                  <div>
+                    <span><i class="ri-group-3-fill"></i></span> 10+
+                  </div>
+                  <div>
+                    <span><i class="ri-map-pin-2-fill"></i></span> Brazil
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="popular__card">
+              <img src="5.-Agra-Fort.jpg" alt="popular" />
+              <div class="popular__content">
+                <div class="popular__rating">
+                  <span><i class="ri-star-fill"></i></span>
+                  4.0(15) 😊
+                </div>
+                <h4>Agra Fort</h4>
+                <p><span>Rp. 5,000,000/-</span> Per Person</p>
+                <div class="popular__card__footer">
+                  <div>
+                    <span><i class="ri-time-line"></i></span> 3 Day's
+                  </div>
+                  <div>
+                    <span><i class="ri-group-3-fill"></i></span> 20+
+                  </div>
+                  <div>
+                    <span><i class="ri-map-pin-2-fill"></i></span> India
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+
+    <section class="section__container explore__container">
+      <div class="explore__image">
+        <img src="pexels-nurseryart-346885.jpg" alt="explore" />
+      </div>
+      <div class="explore__content">
+        <p class="section__subheader">Menjelajah bersama kami</p>
+        <h2 class="section__header">
+          Pilih Destinasi Impian untuk <span>Menjelajahi Dunia</span>
+        </h2>
+        <p class="section__description">
+          ExproTravel membantu Anda menjelajahi dunia dengan mudah, nyaman, dan berkesan. Dengan pengalaman bertahun-tahun, kami menawarkan perjalanan yang disesuaikan dengan preferensi Anda, memastikan setiap detail direncanakan dengan sempurna. Komitmen kami adalah memberikan layanan terbaik dari awal hingga akhir perjalanan Anda.
+        </p>
+          <div class="explore__btn">
+          <button class="btn">Tentang Kami</button>
+        </div>
+        <div class="explore__grid">
+          <div>
+            <h4>9</h4>
+            <p>Tahun<br />Experience</p>
+          </div>
+          <div>
+            <h4>27+</h4>
+            <p>Destinasi<br />Perayaan</p>
+          </div>
+          <div>
+            <h4>127+</h4>
+            <p>Happy<br />Customers</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="client">
+      <div class="section__container client__container">
+        <h2 class="section__header">What people say about us</h2>
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="client__card">
+                <div class="client__details">
+                  <img src="pro1.webp" alt="client" />
+                  <div>
+                    <h4>Austine</h4>
+                    <h5>Graphic Designer</h5>
+                  </div>
+                </div>
+                <p>
+                  Pengalaman booking saya sangat lancar. 
+                  Semua kebutuhan untuk liburan ter-cover dengan baik. Pasti akan saya gunakan lagi!
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="client__card">
+                <div class="client__details">
+                  <img src="pro2.webp" alt="">
+                  <div>
+                    <h4>mazh</h4>
+                    <h5>Software Engineer</h5>
+                  </div>
+                </div>
+                <p>
+                  Dapat banyak diskon menarik yang bikin liburan jadi lebih hemat. 
+                  Situs ini bener-bener bikin perencanaan perjalanan jadi lebih praktis.
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="client__card">
+                <div class="client__details">
+                  <img src="pro3.webp" alt="">
+                  <div>
+                    <h4> Haqq </h4>
+                    <h5>Teacher</h5>
+                  </div>
+                </div>
+                <p>
+                  Dari segi harga dan layanan, semuanya sesuai harapan. 
+                  Website ini bikin liburan saya jadi lebih menyenangkan tanpa stres!.
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="client__card">
+                <div class="client__details">
+                 <img src="pro4.webp" alt="">
+                  <div>
+                    <h4> Rameyza </h4>
+                    <h5>Marketing Specialist</h5>
+                  </div>
+                </div>
+                <p>
+                  Proses pemesanannya sangat cepat dan tanpa masalah. 
+                  Saya merasa sangat puas dan akan kembali menggunakan layanan mereka!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container popular__container" id="package">
+      <h2 class="section__header">Our Popular <span>Packages</span></h2>
+      <div class="popular__card">
+        <img src="bali.jpg" alt="popular" />
+        <div class="popular__content">
+          <div class="popular__rating">
+          </div>
+          <h4>Ekonomi</h4>
+          <p><span>Rp. 1,800,000/-</span> Per Person</p>
+          <div>
+            <i style='font-size:24px' class='far'>&#9992;</i> Pesawat Ekonomi
+          </div>
+          <div>
+            <i style='font-size:24px' class='far'>&#x2714;</i> Hotel⭐⭐⭐
+          </div>
+          <div>
+            <i style='font-size:24px' class='far'>&#x2714;</i> Makan
+          </div>
+      
+          <div class="popular__card__footer">
+            <div>
+              <span><i class="ri-time-line"></i></span> 4 Day's
+            </div>
+            <div>
+              <span><i class="ri-group-3-fill"></i></span> 15+
+            </div>
+            <a href="#" class="card-button">Lihat</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="popular__card">
+      <img src="bali.jpg" alt="popular" />
+      <div class="popular__content">
+        <div class="popular__rating">
+        </div>
+        <h4>Standar</h4>
+        <p><span>Rp. 5,800,000/-</span> Per Person</p>
+        <div>
+          <i style='font-size:24px' class='far'>&#9992;</i> Pesawat Eksekutif
+        </div>
+        <div>
+          <i style='font-size:24px' class='far'>&#x2714;</i> Hotel ⭐⭐⭐⭐
+        </div>
+        <div>
+          <i style='font-size:24px' class='far'>&#x2714;</i> Makan
+        </div>
+        <div class="popular__card__footer">
+          <div>
+            <span><i class="ri-time-line"></i></span> 4 Day's
+          </div>
+          <div>
+            <span><i class="ri-group-3-fill"></i></span> 15+
+          </div>
+          <a href="#" class="card-button">Lihat</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="popular__card">
+      <img src="bali.jpg" alt="popular" />
+      <div class="popular__content">
+        <div class="popular__rating">
+        </div>
+        <h4>Premium</h4>
+        <p><span>Rp. 19,800,000/-</span> Per Person</p>
+        <div>
+          <i style='font-size:24px' class='far'>&#9992;</i> Pesawat First Class
+        </div>
+        <div>
+          <i style='font-size:24px' class='far'>&#x2714;</i> Hotel⭐⭐⭐⭐⭐
+        </div>
+        <div>
+          <i style='font-size:24px' class='far'>&#x2714;</i> Makan
+        </div>
+        <div class="popular__card__footer">
+          <div>
+            <span><i class="ri-time-line"></i></span> 4 Day's
+          </div>
+          <div>
+            <span><i class="ri-group-3-fill"></i></span> 15+
+          </div>
+          <a href="#" class="card-button">Lihat</a>
+        </div>
+      </div>
+    </div>
+      </section>   
+      
+      <section class="banner__container">
+        <div class="section__container">
+          <div class="banner__content">
+            <h2>Discount 10-30% Off</h2>
+            <p>
+              Jelajahi dunia dengan anggaran terbatas melalui penawaran perjalanan diskon kami yang tak terkalahkan. 
+              Baik Anda mencari pelarian mendadak atau merencanakan perjalanan jauh-jauh hari, 
+              kami siap membantu dengan diskon luar biasa untuk penerbangan, hotel, dan paket perjalanan. Jangan tunggu lagi, 
+              pesan sekarang dan rasakan petualangan seumur hidup tanpa menguras kantong.
+            </p>
+            <button>Lihat</button>
+          </div>
+        </div>
+      </section>
+    
+    <footer>
+
+      <section class="body form">
+    <div id="form" class="container ">
+        <div class="form-container">
+            <div class="toggle-btn">
+               <button onclick="showLogin()">Login</button>
+                <button onclick="showRegister()" >Register</button>
+            </div>
+
+            <div id="loginForm" class="form"  >
+                <h2>Login</h2>
+                <input type="text" placeholder="Username" required>
+                <input type="password" placeholder="Password" required>
+                <button>Login</button>
+            </div>
+
+
+            <div id="registerForm" class="form hidden">
+                <h2>Register</h2>
+                <input type="text" placeholder="Username" required>
+                <input type="email" placeholder="Email" required>
+                <input type="password" placeholder="Password" required>
+                <button>Register</button>
+            </div>
+
+
+        </div>
+    </div>
+      </section>
+
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <div class="footer__logo">
+            <a href="#">ExproTravel</a>
+          </div>
+          <p>
+            Jelajahi dunia bersama kami! Terhubung melalui saluran media sosial kami, 
+            temukan tautan cepat ke sumber daya penting, 
+            dan dapatkan dukungan 24/7 untuk membuat perencanaan perjalanan Anda menjadi lebih mudah.
+          </p>
+          <ul class="footer__socials">
+            <li>
+              <a href="#"><i class="ri-facebook-fill"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ri-twitter-fill"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ri-instagram-line"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Services</h4>
+          <ul class="footer__links">
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Destinations</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Privacy</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Instagram</h4>
+        <div class="footer__col">
+          <h4>Contact</h4>
+          <ul class="footer__links">
+            <li>
+              <a href="#">
+                <span><i class="ri-phone-fill"></i></span> +62 89517925046
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span><i class="ri-map-pin-fill"></i></span> bogor ,Indonesia
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span><i class="ri-mail-fill"></i></span> ziakirana.xpro@gamial.com
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © ExproTravel. All rights reserved.
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
